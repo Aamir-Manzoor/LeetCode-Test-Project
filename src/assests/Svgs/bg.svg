@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="720.000000pt" height="259.000000pt" viewBox="10 20 720.000000 259.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<!-- Define the gradient in the <defs> section -->
+<defs>
+  <linearGradient id="customGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#3B4755" />
+    <stop offset="20%" style="stop-color:#3B4755" />
+    <stop offset="30%" style="stop-color:#323332" />
+    <stop offset="50%" style="stop-color:#323332" />
+    <stop offset="70%" style="stop-color:#2F2E2F" />
+    <stop offset="80%" style="stop-color:#2F2E2F" />
+    <stop offset="100%" style="stop-color:#2F2E2F" />
+  </linearGradient>
+</defs>
+
+<!-- Apply the gradient to the path using the 'fill' attribute -->
+<g transform="translate(0.000000,259.000000) scale(0.100000,-0.100000)"
+fill="url(#customGradient)" stroke="none">
+<path d="M0 2070 c0 -286 2 -520 5 -520 3 0 79 -16 168 -35 363 -80 1270 -273
+1777 -380 450 -95 558 -118 805 -170 94 -20 231 -49 305 -65 74 -16 473 -101
+885 -189 413 -88 782 -167 820 -175 39 -8 273 -58 520 -111 248 -53 470 -100
+495 -105 25 -5 352 -74 727 -154 376 -80 685 -146 688 -146 3 0 5 578 5 1285
+l0 1285 -3600 0 -3600 0 0 -520z"/>
+</g>
+</svg>
