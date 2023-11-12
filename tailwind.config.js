@@ -126,7 +126,7 @@ module.exports = {
     },
     extend: {
       maxWidth: {
-        maxContent: "1260px",
+        maxContent: "1180px",
         maxContentTab: "650px",
       },
       backgroundColor: {},

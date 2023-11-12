@@ -4,7 +4,8 @@ import logo from "../../assests/images/LeetCode_logo_rvs.png";
 
 const Navbar = () => {
   return (
-    <nav className="max-w-maxContent w-11/12 text-richblack-5 mx-auto pt-2 flex justify-between items-center">
+    <div className="w-ful h-full">
+    <nav className="max-w-maxContent w-11/12 text-richblack-5 mx-auto pt-2 flex justify-between items-center ">
       <Link to="/" className="flex items-center justify-center ">
         <img src={logo} alt="logo" width={50} height={40} />
         <h1 className="text-2xl font-semibold">LeetCode</h1>
@@ -43,6 +44,7 @@ const Navbar = () => {
         </Link>
       </div>
     </nav>
+    </div>
   );
 };
 
