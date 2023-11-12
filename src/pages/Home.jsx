@@ -8,6 +8,20 @@ import Edu from "../assests/images/Edu.png";
 import section2Img1 from "../assests/images/section2-1.png";
 import section2Img2 from "../assests/images/section2-2.png";
 import section3Img from "../assests/images/section3.png";
+import Facebook from "../assests/Svgs/facebook.svg";
+import Apple from "../assests/Svgs/apple.svg";
+import Leap from "../assests/Svgs/leap-motion.svg";
+import Square from "../assests/Svgs/squarespace.svg";
+import Intel from "../assests/Svgs/intel.svg";
+import Amazon from "../assests/Svgs/amazon.svg";
+import section5 from '../assests/images/section5.png'
+import Uber from "../assests/Svgs/uber.svg";
+import Bank from "../assests/Svgs/bank-of-america.svg";
+import Pinterest from "../assests/Svgs/pinterest.svg";
+import Cisco from "../assests/Svgs/cisco.svg";
+import Stripe from "../assests/Svgs/stripe.svg";
+import {BsFillHeartFill} from 'react-icons/bs'
+
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const Home = () => {
   return (
@@ -129,7 +143,9 @@ const Home = () => {
       <div className=" max-w-maxContent w-11/12 mx-auto mt-20">
         <div className="flex flex-col items-center justify-center gap-6">
           <img src={section3Img} alt="" />
-          <p className="text-2xl font-semibold text-center text-gradient-blue-100">Developer</p>
+          <p className="text-2xl font-semibold text-center text-gradient-blue-100">
+            Developer
+          </p>
           <p className="w-[45rem] text-center text-base text-richblack-100 leading-8">
             We now support 14 popular coding languages. At our core, LeetCode is
             about developers. Our powerful development tools such as Playground
@@ -137,9 +153,37 @@ const Home = () => {
           </p>
         </div>
       </div>
-     {/*Section 5*/}
-      <div>
-      
+      {/*Section 5*/}
+      <div className="relative max-w-maxContent w-11/12 mx-auto flex gap-10 mt-20 flex-col items-center justify-center">
+        <img src={section5} alt="" width={100} height={100}/>
+
+        <p className="flex items-center justify-center text-xl font-semibold text-pink-500 leading-4 gap-2">
+          Made with <span className="text-pink-500"><BsFillHeartFill/></span> in SF
+        </p>
+        <p className="text-center  w-[60%] text-richblack-50 text-base font-normal leading-8">
+          At LeetCode, our mission is to help you improve yourself and land your
+          dream job. We have a sizable repository of interview resources for
+          many companies. In the past few years, our users have landed jobs at
+          top companies around the world.
+        </p>
+
+        <div className="flex mt-5 gap-8">
+          <img src={Facebook} alt="" width={120} height={100} />
+          <img src={Leap} alt="" width={80} height={60} />
+          <img src={Apple} alt="" width={40} height={30} />
+          <img src={Uber} alt="" width={80} height={70} />
+          <img src={Square} alt="" width={70} height={60} />
+
+          <img src={Intel} alt="" width={80} height={70} />
+          <img src={Amazon} alt="" width={80} height={60} />
+        </div>
+
+        <div className="flex gap-8">
+          <img src={Bank} alt=""  width={150} height={90} />
+          <img src={Pinterest} alt=""  width={80} height={60} />
+          <img src={Cisco} alt=""  width={80} height={60} />
+          <img src={Stripe} alt=""  width={80} height={60} />
+        </div>
       </div>
     </div>
   );
